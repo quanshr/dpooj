@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='images/foo.png') }}">
+    <title>反馈</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body class="blue">
+    {% for message in get_flashed_messages() %}
+        <div class="alert">{{ message }}</div>
+    {% endfor %}
+
+    <div class="container white z-depth-5"
+        style="width: 80%;height:width;margin-top:2%;padding-top:2%;padding-bottom:2%;margin-bottom:2%;border-radius: 50px;">
+        <h1 class="center-align" style="margin:auto"></h1>
+
+        <div class="left">
+            <button class="btn waves-effect waves-light blue" id="toindex" style="width: 100px; margin-top:5%; margin-left:5%" type="button">
+                返回
+            </button>
+        </div>
+
+        <div style="margin:50px;">
+            <p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                我们十分关注用户的使用体验，若您有想给我们的使用体验反馈，或在使用过程中遇到任何问题，
+                或有关于界面设置、评测机制等其它方面的意见或建议，欢迎在下方提出
+            </p>
+            
+            <div>
+                <textarea id="feedbacktext" name="feedbacktext"
+                    style="height: 300px;">
+                </textarea>
+            </div>
+            <p class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                同时我们十分欢迎您提供自己的数据生成器，您可以通过下方的上传文件功能发送
+            </p>
+            <div class="btn blue" style="width: 200px;">
+                <!-- <span>上传文件</span> -->
+                <input type="file" id="upFile" name="upfile" />
+            </div>
+            <div class="center-align">
+                <button class="btn waves-effect waves-light blue" id="tofeedback" style="width: 100px; margin-top:5%;" type="button">
+                    确认发送
+                </button>
+            </div>
+        </div>
+
+
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+
+        $("#toindex").on('click',function(){
+            window.location.href="./index";
+        });
+
+
+        $("#tofeedback").on('click', function() {
+            var formdata = new FormData();
+            formdata.append('text', document.getElementById('feedbacktext').value);
+            formdata.append('file', $('#upFile')[0].files[0]);
+            $.ajax({
+                url: '/tofeedback',
+                type: 'post',
+                contentType: false,
+                processData: false,
+                data: formdata,
+                success: function (result) {
+                    if (result == "true") {
+                        window.location.href="./index";
+                    }
+                    else {
+                        window.location.href="./feedback";
+                    }
+
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+<style>
+    
+    .alert {
+        position: relative;
+        padding: 7px;
+        margin: 7px 0;
+        border: 1px solid transparent;
+        color: #d21310;
+        background-color: #d9dc16;
+        border-color: #b8daff;
+        border-radius: 5px;
+    }
+    

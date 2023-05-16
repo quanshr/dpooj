@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='images/foo.png') }}">
+    <title>开发日志</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body class="red">
+    <div class="container white z-depth-5"
+        style="width: 80%;height:width;margin-top:2%;padding-top:2%;padding-bottom:2%;margin-bottom:2%;border-radius: 50px;">
+        <h1 class="center-align" style="margin:auto"></h1>
+
+
+        <div style="margin:50px 10%;">
+            <p class="grey-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2023.4.29】<span class="orange-text">quanshr</span>跟
+                <span class="green-text text-darken-1">cxccxc</span>提出想做一个OO评测网站，当天申请了阿里云服务器，选定使用flask作为后端框架开发，
+                做了些简单尝试
+            </p>
+            <p class="grey-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2023.5.1】完成了邮箱验证的脚本，使用原生html，js做好了网站的基本前端布局，并实现上传文件，
+                由于服务器内存不足又买了华为云
+            </p>
+            <p class="grey-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2023.5.2】在后端加入了SQLAlchemy数据库插件，完成了注册系统
+            </p>
+            <p class="grey-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2023.5.3】完成了登录、提交代码、刷新评测结果的前后端逻辑
+            </p>
+            <p class="grey-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2023.5.5】实现了多线程评测脚本和下载错误信息功能，完成了评测系统，进行了测试
+            </p>
+            <p class="grey-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2023.5.6】完善功能、全流程测试后在年级群内邀请了内测，看到屏幕上输出的一行行注册信息心情非常激动、紧张，
+                尽管做了测试但在并发场景下还是产生了问题，好在很快修复了，在作业提交截至前几个小时我们为一百多位同学提供了评测
+            </p>
+        </div>
+
+        <div class="center-align">
+            <button class="btn waves-effect waves-light red" id="toindex" style="width: 100px; margin-top:5%;" type="button">
+                返回</button>
+        </div>
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $("#toindex").on('click',function(){
+            window.location.href="./index";
+        });
+    </script>
+</body>
+
+</html>

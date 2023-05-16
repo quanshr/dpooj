@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='images/foo.png') }}">
+    <title>公告</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body class="orange">
+    <div class="container white z-depth-5"
+        style="width: 60%;height:width;margin-top:5%;padding-top:4%;padding-bottom:5%;margin-bottom:10%;border-radius: 50px;">
+        <h1 class="center-align" style="margin:auto">公告</h1>
+
+
+        <div style="margin:50px 10%;">
+            <p class="grey-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                【2023.5.13】我们推出了反馈/贡献的功能，刷新了大家的提交
+            </p>
+            <p></p>
+        </div>
+
+        <div class="center-align">
+            <button class="btn waves-effect waves-light orange" id="toindex" style="width: 100px; margin-top:5%;" type="button">
+                返回</button>
+        </div>
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $("#toindex").on('click',function(){
+            window.location.href="./index";
+        });
+    </script>
+</body>
+
+</html>
