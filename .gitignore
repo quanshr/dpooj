@@ -5,3 +5,5 @@ static/workplace/std/log/
 __pycache__/
 
 jdk8/
+
+debug/docker

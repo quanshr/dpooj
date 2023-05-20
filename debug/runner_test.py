@@ -5,13 +5,20 @@ import shutil
 from random import sample
 import json
 
+hw = 11
 
 workplace_path = '../static/workplace'
+java_path = '../jdk8/jdk1.8.0_152/bin/java'
 # args
 num_worker = 16
 std_path = f"{workplace_path}/std"
+stdcode_path = f"{std_path}/code_hw{hw}"
+log_path = f"{std_path}/log"
 user = sys.argv[1]
+print(f"{user} begin to run code!")
+
 user_path = f"{workplace_path}/users/{sys.argv[1]}"
+user_ab_path = f"/home/shared/myflask/staic/workplace/users/{sys.argv[1]}"
 result_path = f"{user_path}/result.json"
 
 with open(f"{user_path}/runargs.json", 'r') as file:
@@ -32,6 +39,7 @@ RE = 256
 TLE = 31744
 mx_err = 3
 can_end = 0
+std_count = len(os.listdir(stdcode_path))
 
 class MyThrd(threading.Thread):
     def __init__(self , thread_id):
@@ -39,20 +47,72 @@ class MyThrd(threading.Thread):
         self.thread_id = thread_id
         #print(f"{self.thread_id} build")
     def run(self):
-        global log_count, now_count, can_end
+        global log_count, now_count, can_end, tot_count
         while not can_end and (now_count < tot_count or tot_count == -1):
+            
+            with file_lock:
+                with open(f"{std_path}/can_run", 'r') as file:
+                    can_run = file.read()
+                if can_run == "0":
+                    time.sleep(1)
+                    continue
+                
             with count_lock:
+                if now_count >= tot_count:
+                    break
                 now_count += 1
                 my_count = now_count
             input_path = f"{user_path}/input/{my_count}.in"
-            os.system(f"python maker.py {user_path} > {input_path}")
-            
+            os.system(f"python maker/maker_hw{hw}.py {user_path} > {input_path}")
+
             run_status = self.runcode(user_path, input_path, my_count)
-            os.system(f"java -jar {std_path}/code.jar < {input_path} > {user_path}/stdout/{my_count}.out")
             userout_path = f"{user_path}/output/{my_count}.out"
-            stdout_path = f"{user_path}/stdout/{my_count}.out"
+            usererr_path = f"{user_path}/error/{my_count}.out"
+            stdout_path = ""
 
+            # run stds' code
+            for i in range(std_count):
+                os.system(f"timeout 15 java -XX:MaxNewSize=128m -jar {stdcode_path}/code_{i}.jar < {input_path} > {user_path}/stdout/{my_count}_{i}.out")
+            for i in range(std_count):
+                diff_num = 0
+                for j in range(std_count):
+                    if os.system(f"diff {user_path}/stdout/{my_count}_{i}.out {user_path}/stdout/{my_count}_{j}.out > /dev/null"):
+                        diff_num += 1
+                        
+                if diff_num < std_count / 2:
+                    if stdout_path == "":
+                        with file_lock:
+                            if stdout_path == "":
+                                stdout_path = f"{user_path}/stdout/{my_count}.out"
+                                os.system(f"cp {user_path}/stdout/{my_count}_{i}.out {stdout_path}")
+                else:
+                    with file_lock:
+                        print(f"file code_{i} error !!")
+                        num_log = len(os.listdir(log_path))
+                        os.mkdir(f"{log_path}/{num_log}_{i}")
+                        os.system(f"cp {input_path} {log_path}/{num_log}_{i}/input.txt")
+                        for j in range(std_count):
+                            os.system(f"cp {user_path}/stdout/{my_count}_{j}.out {log_path}/{num_log}_{i}/{j}.out")
+            
+            # bad std result
+            if stdout_path == "":
+                with count_lock:
+                    if tot_count != -1:
+                        tot_count += 1
+                continue
 
+            # run user's code with docker
+            os.system(f"cd docker && docker build -f Dockerfile_user_run {user_ab_path}")
+            cidfile_path = f"{user_path}/cidfiles/{my_count}.cid"
+            os.system(f"docker run --cidfile {cidfile_path} user_{user}")
+            with open(cidfile_path, 'r') as file:
+                cid = file.read()
+            os.system(f"docker cp {cid}:output.txt {userout_path}")
+            os.system(f"docker cp {cid}:error.txt {usererr_path}")
+            
+            
+
+            # judge the output and error
             with file_lock:
                 with open(result_path, 'r') as file:
                     json_data = json.load(file)
@@ -87,7 +147,7 @@ class MyThrd(threading.Thread):
                         os.system(f"diff {userout_path} {stdout_path} > {user_path}/wrongdata/{id}.diff")
                         if id >= mx_err - 1:
                             can_end = 1
-                        
+
                     json_data['all'] += 1
                     json_data['ac'] += 0 if is_wrong else 1
                     json_data['wa'] += 1 if is_wrong else 0
@@ -97,9 +157,7 @@ class MyThrd(threading.Thread):
             os.system(f"rm {input_path}")
             os.system(f"rm {stdout_path}")
             os.system(f"rm {userout_path}")
-
-    def runcode(self, user_path, input_path, my_count):
-        return os.system(f"timeout 10 java -XX:MaxNewSize=128m -jar {user_path}/code.jar < {input_path} > {user_path}/output/{my_count}.out")
+            os.system(f"rm {usererr_path}")
 
 def cleandir(name):
     if os.path.isdir(name):
@@ -111,21 +169,34 @@ def cleanfile(name):
         os.system(f"rm {name}")
     os.system(f"touch {name}")
 
+# reset files
 cleandir(f"{user_path}/input")
 cleandir(f"{user_path}/output")
+cleandir(f"{user_path}/error")
 cleandir(f"{user_path}/wrongdata")
 cleandir(f"{user_path}/stdout")
+cleandir(f"{user_path}/cidfiles")
 cleanfile(result_path)
 with open(result_path, 'w') as file:
     json.dump(result_template, file)
+
+# begin docker    
+if os.system('docker inspect runjava'):
+    os.system('cd docker && docker build -f Dockerfile_jdk -t runjava .')
     
-    
+os.system(f'cd docker && docker build -f Dockerfile_user -t user_{sys.argv[1]} {user_abpath}')
+
+
+
+# begin judge
 threads = []
 for i in range(num_worker):
     thread = MyThrd(i)
     threads.append(thread)
     thread.start()
 
+
+# end judge
 for thread in threads:
     thread.join()
     
@@ -135,10 +206,13 @@ runargs['is_running'] = 0
 with open(f"{user_path}/runargs.json", 'w') as file:
     json.dump(runargs, file)
     
-
+# print result
 with open(result_path, 'r') as file:
     json_data = json.load(file)
-if json_data['all']==json_data['ac']:
+if json_data['all'] == json_data['ac']:
     print(f"\033[1m\033[32m{user}: {json_data}\033[0m")
 else:
     print(f"\033[1m\033[31m{user}: {json_data}\033[0m")
+    
+
+    

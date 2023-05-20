@@ -1,4 +1,4 @@
-import os, sys, json,time,zipstream
+import os, sys, json,time,zipstream,re
 from zipfile import ZIP_DEFLATED
 from markupsafe import escape
 from flask import  Flask, Response, make_response, render_template, send_file, send_from_directory,url_for, flash, request, redirect
@@ -172,10 +172,17 @@ def gotoSignup():
 
 @app.route('/send_code', methods=['POST'])
 def send_code():
-    if User.query.filter(User.username==request.form['username']).first() != None:
+    username=request.form['username']
+    email=request.form['email']
+    if User.query.filter(User.username==username).first() != None:
         return json.loads('{"code":"3","info":"%s"}'%("此用户名已被占用！"))
-    if User.query.filter(User.email==request.form['email']).first() != None:
+    if User.query.filter(User.email==email).first() != None:
         return json.loads('{"code":"2","info":"%s"}'%("此邮箱已被使用！"))
+    if(re.match(''.join(['[0-9a-zA-Z_\\u4E00-\\u9FFF]{',f'{len(str(username))}','}']),str(username))==None):
+        print(len(username))
+        return json.loads('{"code":"3","info":"%s"}'%("用户名只能包含中文、英文、数字及下划线"))
+    if(re.match('^[a-zA-Z0-9_-\\u4E00-\\u9FFF]+@[a-zA-Z0-9_-]+(.[a-zA-Z0-9_-]+)+$',email)==None):
+        return json.loads('{"code":"2","info":"%s"}'%("请输入合法的邮箱地址！"))
     validation_code = Validation_code.query.filter(Validation_code.email==request.form['email']).first()
     if validation_code == None:
         validation_code = Validation_code()
