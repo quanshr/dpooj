@@ -22,7 +22,7 @@ def load_user(user_id):
 login_manager.login_view = 'login'
 
 
-hw = 11
+hw = 13
 
 @app.route('/')
 def root():
@@ -44,15 +44,17 @@ def hello():
         #db.drop_all()
         db.create_all()
     if current_user.is_authenticated:
-        instr=""
+        run_args = ""
         if(current_user.is_uploaded):
             username=current_user.username
             user_path=f"{app.config['WORKPLACE_FOLDER']}/users/{username}"
             runargs_path=f'{user_path}/runargs.json'
             with open(runargs_path,'r',encoding='utf8') as fp:
-                runargs=json.load(fp)
-                instr= str(runargs['num_instr'])
-        return render_template('index.html',username=current_user.username,info=f"欢迎您，{current_user.username}",instr=instr)
+                run_args = json.load(fp)
+            return render_template('index.html',username=current_user.username,info=f"欢迎您，{current_user.username}", 
+                                n=run_args['n'], m=run_args['m'], student_count=run_args['student_count'])
+        else:
+            return render_template('index.html',username=current_user.username,info=f"欢迎您，{current_user.username}")
     else:
         return render_template('index.html')
     
@@ -147,21 +149,28 @@ def uploader():
         if(not current_user.is_uploaded):
            return json.loads('{"code":"1","info":"%s"}'%("请上传.jar文件！"))
         
-    amount=request.form['amount']
-    num_runs=int(2e4//int(amount))
-    runargs_path=f'{user_path}/runargs.json'
-    if(not os.path.exists(runargs_path)):
-        os.system('echo \'{"num_runs": %d, "num_instr": %d, "is_running":0}\' > %s'%(num_runs,int(amount),runargs_path))
-    else:
-        runargs=None
-        with open(runargs_path,'r',encoding='utf8') as fp:
-            runargs=json.load(fp)
-            runargs['num_runs']=num_runs
-            runargs['num_instr']=int(amount)
-        with open(runargs_path,'w',encoding='utf8') as fp:
-            json.dump(runargs,fp)
+         
+    #  三个参数，1<=n<=100, 1<=m<=100, 1<=student_count<=100
+    print(request.form)
+    # amount = request.form['amount']
+    n = request.form['n']
+    m = request.form['m']
+    student_count = request.form['student_count']
 
-    print(f"{username} set num_runs=>{num_runs} & num_instr=>{amount}")
+    num_runs = 5
+    runargs_path=f'{user_path}/runargs.json'
+    os.system(f'touch {runargs_path}')
+    runargs=None
+    with open(runargs_path,'r',encoding='utf8') as fp:
+        runargs=json.load(fp)
+        runargs['num_runs'] = num_runs
+        runargs['n'] = int(n)
+        runargs['m'] = int(m)
+        runargs['student_count'] = int(student_count)
+    with open(runargs_path,'w',encoding='utf8') as fp:
+        json.dump(runargs,fp)
+
+    print(f"{username} set n={n} & m={m} & student_count={student_count}")
     return json.loads('{"code":"0","info":"%s"}'%("上传成功！"))
     
 

@@ -66,8 +66,15 @@
             <div class="inline" style="font-size: 200%;">recipe:</div>
             <div class="input-field inline" style="width:25%;left:3%" id="amountInput">
 
-                <input class="validate inline" id="amount" type="text" list="amountList" placeholder="每组数据输入行数"
-                    value="{{instr}}" />
+                <!-- <input class="validate inline" id="amount" type="text" list="amountList" placeholder="每组数据输入行数"
+                    value="{{amount}}" /> -->
+                <input class="validate inline" id="n" type="text" placeholder="n: [1, 100]"
+                    value="{{n}}" />
+                <input class="validate inline" id="m" type="text" placeholder="m: [1, 100]"
+                    value="{{m}}" />
+                <input class="validate inline" id="student_count" type="text" placeholder="student_count: [1, 100]"
+                    value="{{student_count}}" />
+
                 <datalist id="amountList">
                     <option>10(简单)</option>
                     <option>20(标准)</option>

@@ -5,7 +5,7 @@ import shutil
 from random import sample
 import json
 
-hw = 11
+hw = 13
 
 workplace_path = '../static/workplace'
 java_path = '../jdk8/jdk1.8.0_152/bin/java'
@@ -40,6 +40,8 @@ mx_err = 3
 can_end = 0
 std_count = len(os.listdir(stdcode_path))
 
+print("begin")
+
 class MyThrd(threading.Thread):
     def __init__(self , thread_id):
         super(MyThrd,self).__init__()
@@ -62,7 +64,8 @@ class MyThrd(threading.Thread):
                 now_count += 1
                 my_count = now_count
             input_path = f"{user_path}/input/{my_count}.in"
-            os.system(f"python maker/maker_hw{hw}.py {user_path} > {input_path}")
+            os.system(f"java -jar maker/maker_hw{hw}.jar {runargs['n']} \
+                {runargs['m']} {runargs['student_count']} > {input_path}")
 
             run_status = self.runcode(user_path, input_path, my_count)
             userout_path = f"{user_path}/output/{my_count}.out"
@@ -145,9 +148,9 @@ class MyThrd(threading.Thread):
             os.system(f"rm {userout_path}")
 
     def runcode(self, user_path, input_path, my_count):
-        r = os.system(f"timeout 20 java -XX:MaxNewSize=128m -jar {user_path}/code_hw{hw}.jar < {input_path} > {user_path}/output/{my_count}.out 2> /dev/null")
+        r = os.system(f"timeout 15 java -XX:MaxNewSize=128m -jar {user_path}/code_hw{hw}.jar < {input_path} > {user_path}/output/{my_count}.out 2> /dev/null")
         if r == RE:
-            r = os.system(f"timeout 20 {java_path} -XX:MaxNewSize=128m -jar {user_path}/code_hw{hw}.jar < {input_path} > {user_path}/output/{my_count}.out")
+            r = os.system(f"timeout 15 {java_path} -XX:MaxNewSize=128m -jar {user_path}/code_hw{hw}.jar < {input_path} > {user_path}/output/{my_count}.out")
 
 def cleandir(name):
     if os.path.isdir(name):

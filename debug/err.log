@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/shared/myflask/debug/runner.py", line 168, in <module>
+    cleandir(f"{user_path}/stdout")
+  File "/home/shared/myflask/debug/runner.py", line 157, in cleandir
+    shutil.rmtree(name)
+  File "/usr/lib/python3.10/shutil.py", line 724, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/usr/lib/python3.10/shutil.py", line 680, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/usr/lib/python3.10/shutil.py", line 678, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+PermissionError: [Errno 13] Permission denied: '3_0.out'

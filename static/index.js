@@ -24,25 +24,45 @@ function logout() {
         });
     }
 }
-window.onload = function () {
-    if($("#amount")[0].value==""){
-        $("#amount")[0].value="20(标准)"
-    }
-}
-$("#amountInput")[0].onmousedown = function () {
-    $("#amount")[0].value = "";
-}
-$("#amount")[0].onmousedown = function () {
-    $("#amount")[0].value = "";
-}
+// window.onload = function () {
+//     if($("#amount")[0].value==""){
+//         $("#amount")[0].value="20(标准)"
+//     }
+// }
+// $("#amountInput")[0].onmousedown = function () {
+//     $("#amount")[0].value = "";
+// }
+// $("#amount")[0].onmousedown = function () {
+//     $("#amount")[0].value = "";
+// }
 
 var upload= async function () {
     var fi = $("#filePath")[0];
     var uploadf = 1;
-    var amount = $("#amount").val().split('(')[0];
-    if (amount == ""|| parseInt(amount)<1 || parseInt(amount)>10000||isNaN(parseInt(amount))) {
-        $("#amount")[0].className += " invalid";
-        $("#amount")[0].value = "请输入[1,10000]之间的数";
+    // var amount = $("#amount").val().split('(')[0];
+    var n = $("#n").val().split('(')[0];
+    var m = $("#m").val().split('(')[0];
+    var student_count = $("#student_count").val().split('(')[0];
+    // if (amount == ""|| parseInt(amount)<1 || parseInt(amount) > 5||isNaN(parseInt(amount))) {
+    //     $("#amount")[0].className += " invalid";
+    //     $("#amount")[0].value = "请输入[1,5]之间的数";
+    //     return;
+    // }
+    console.log(n);
+    if (n == "" || isNaN(parseInt(n)) || parseInt(n) < 1 || parseInt(n) > 100) {
+        $("#n")[0].className += " invalid";
+        $("#n")[0].value = "请输入[1,100]之间的数";
+        return;
+    }
+    if (m == "" || isNaN(parseInt(m)) || parseInt(m) < 1 || parseInt(m) > 100) {
+        $("#m")[0].className += " invalid";
+        $("#m")[0].value = "请输入[1,100]之间的数";
+        return;
+    }
+    if (student_count == "" || isNaN(parseInt(student_count)) 
+            || parseInt(student_count) < 1 || parseInt(student_count) > 100) {
+        $("#student_count")[0].className += " invalid";
+        $("#student_count")[0].value = "请输入[1,100]之间的数";
         return;
     }
     var jarfile = $('#jarFile')[0].files[0];
@@ -70,9 +90,11 @@ var upload= async function () {
         fi.value = "正在上传，请等候";
     } 
     else formdata.append('file', null);
-    formdata.append('amount',amount);
-
-    $("#amount")[0].value=$("#amount")[0].value.replace("(参数上传成功！)","");
+    // formdata.append('amount', amount);
+    formdata.append('n', n);
+    formdata.append('m', m);
+    formdata.append('student_count', student_count);
+    // $("#amount")[0].value=$("#amount")[0].value.replace("(参数上传成功！)","");
     await $.ajax({
         url: '/uploader',
         type: 'post',
@@ -83,8 +105,8 @@ var upload= async function () {
             fi.value = data.info;
             if(data.code=="0"){
                 fi.placeholder = "您已上传文件，重新上传会覆盖原文件"
-                $("#amount")[0].value=$("#amount")[0].value.replace("(参数上传成功！)","");
-                $("#amount")[0].value+="(参数上传成功！)";
+                // $("#amount")[0].value=$("#amount")[0].value.replace("(参数上传成功！)","");
+                // $("#amount")[0].value+="(参数上传成功！)";
                 $("#canStart")[0].style.display = "block";
                 isuploaded=1;
             }
