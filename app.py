@@ -22,7 +22,7 @@ def load_user(user_id):
 login_manager.login_view = 'login'
 
 
-hw = 13
+hw = 14
 
 @app.route('/')
 def root():
@@ -153,6 +153,7 @@ def uploader():
     #  三个参数，1<=n<=100, 1<=m<=100, 1<=student_count<=100
     print(request.form)
     # amount = request.form['amount']
+    t = request.form['t']
     n = request.form['n']
     m = request.form['m']
     student_count = request.form['student_count']
@@ -164,13 +165,14 @@ def uploader():
     with open(runargs_path,'r',encoding='utf8') as fp:
         runargs=json.load(fp)
         runargs['num_runs'] = num_runs
+        runargs['t'] = int(t)
         runargs['n'] = int(n)
         runargs['m'] = int(m)
         runargs['student_count'] = int(student_count)
     with open(runargs_path,'w',encoding='utf8') as fp:
         json.dump(runargs,fp)
 
-    print(f"{username} set n={n} & m={m} & student_count={student_count}")
+    print(f"{username} set t={t} n={n} & m={m} & student_count={student_count}")
     return json.loads('{"code":"0","info":"%s"}'%("上传成功！"))
     
 

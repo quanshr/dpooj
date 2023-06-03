@@ -10,7 +10,7 @@ hw = 13
 workplace_path = '../static/workplace'
 java_path = '../jdk8/jdk1.8.0_152/bin/java'
 # args
-num_worker = 1
+num_worker = 16
 std_path = f"{workplace_path}/std"
 stdcode_path = f"{std_path}/code_hw{hw}"
 log_path = f"{std_path}/log"
@@ -27,6 +27,7 @@ with open(f"{user_path}/runargs.json", 'w') as file:
     json.dump(runargs, file)
     
 tot_count = runargs['num_runs']
+tot_count = 2000
 
 
 log_count = 0

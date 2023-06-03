@@ -40,6 +40,7 @@ var upload= async function () {
     var fi = $("#filePath")[0];
     var uploadf = 1;
     // var amount = $("#amount").val().split('(')[0];
+    var t = $("#t").val().split('(')[0];
     var n = $("#n").val().split('(')[0];
     var m = $("#m").val().split('(')[0];
     var student_count = $("#student_count").val().split('(')[0];
@@ -49,6 +50,11 @@ var upload= async function () {
     //     return;
     // }
     console.log(n);
+    if (t == "" || isNaN(parseInt(t)) || parseInt(t) < 1 || parseInt(t) > 5) {
+        $("#t")[0].className += " invalid";
+        $("#t")[0].value = "请输入[1,5]之间的数";
+        return;
+    }
     if (n == "" || isNaN(parseInt(n)) || parseInt(n) < 1 || parseInt(n) > 100) {
         $("#n")[0].className += " invalid";
         $("#n")[0].value = "请输入[1,100]之间的数";
@@ -91,6 +97,7 @@ var upload= async function () {
     } 
     else formdata.append('file', null);
     // formdata.append('amount', amount);
+    formdata.append('t', t);
     formdata.append('n', n);
     formdata.append('m', m);
     formdata.append('student_count', student_count);

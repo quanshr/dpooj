@@ -5,12 +5,12 @@ import shutil
 from random import sample
 import json
 
-hw = 13
+hw = 14
 
 workplace_path = '../static/workplace'
 java_path = '../jdk8/jdk1.8.0_152/bin/java'
 # args
-num_worker = 1
+num_worker = 16
 std_path = f"{workplace_path}/std"
 stdcode_path = f"{std_path}/code_hw{hw}"
 log_path = f"{std_path}/log"
@@ -27,6 +27,7 @@ with open(f"{user_path}/runargs.json", 'w') as file:
     json.dump(runargs, file)
     
 tot_count = runargs['num_runs']
+tot_count = 2000
 
 
 log_count = 0
@@ -67,7 +68,7 @@ class MyThrd(threading.Thread):
                 now_count += 1
                 my_count = now_count
             input_path = f"{user_path}/input/{my_count}.in"
-            os.system(f"java -jar maker/maker_hw{hw}.jar {runargs['n']} \
+            os.system(f"java -jar maker/maker_hw{hw}.jar {runargs['t']} {runargs['n']} \
                 {runargs['m']} {runargs['student_count']} > {input_path}")
 
             run_status = self.runcode(user_path, input_path, my_count)
