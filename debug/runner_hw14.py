@@ -10,7 +10,7 @@ hw = 14
 workplace_path = '../static/workplace'
 java_path = '../jdk8/jdk1.8.0_152/bin/java'
 # args
-num_worker = 16
+num_worker = 2
 std_path = f"{workplace_path}/std"
 stdcode_path = f"{std_path}/code_hw{hw}"
 log_path = f"{std_path}/log"
@@ -27,7 +27,8 @@ with open(f"{user_path}/runargs.json", 'w') as file:
     json.dump(runargs, file)
     
 tot_count = runargs['num_runs']
-tot_count = 2000
+init_tot_count = tot_count
+#tot_count = 2000
 
 
 log_count = 0
@@ -40,8 +41,25 @@ TLE = 31744
 mx_err = 3
 can_end = 0
 std_count = len(os.listdir(stdcode_path))
+bar = std_count / 2
 
 print("begin")
+
+def myhash(file_path):
+    with open(file_path, 'r') as file:
+        txt = file.readlines()
+    
+    res = 0
+    for line in txt:
+        if line[0] == '[':
+            for ch in line:
+                res += ord(ch)
+    return res
+    
+    
+def mydiff(file1, file2):
+    return myhash(file1) != myhash(file2)
+
 
 class MyThrd(threading.Thread):
     def __init__(self , thread_id):
@@ -49,7 +67,7 @@ class MyThrd(threading.Thread):
         self.thread_id = thread_id
         #print(f"{self.thread_id} build")
     def run(self):
-        global log_count, now_count, can_end, tot_count
+        global log_count, now_count, can_end, tot_count, bar, num_worker
         while not can_end and (now_count < tot_count or tot_count == -1):
             
             with file_lock:
@@ -59,8 +77,8 @@ class MyThrd(threading.Thread):
                     time.sleep(1)
                     continue
             
-            if num_worker == 1:
-                time.sleep(2)
+            if num_worker == 2:
+                time.sleep(1)
             
             with count_lock:
                 if now_count >= tot_count:
@@ -75,33 +93,39 @@ class MyThrd(threading.Thread):
             userout_path = f"{user_path}/output/{my_count}.out"
             stdout_path = ""
 
-            for i in range(std_count):
-                os.system(f"timeout 30 java -XX:MaxNewSize=128m -jar {stdcode_path}/code_{i}.jar < {input_path} > {user_path}/stdout/{my_count}_{i}.out")
-            for i in range(std_count):
+            for std in os.listdir(stdcode_path):
+                os.system(f"timeout 30 java -XX:MaxNewSize=128m -jar {stdcode_path}/{std} < {input_path} > {user_path}/stdout/{my_count}_{std.split('.')[0]}.out")
+            for std in os.listdir(stdcode_path):
+                std_user = std.split('.')[0]
+                mystdout_path = f"{user_path}/stdout/{my_count}_{std_user}.out"
                 diff_num = 0
-                for j in range(std_count):
-                    if os.system(f"diff {user_path}/stdout/{my_count}_{i}.out {user_path}/stdout/{my_count}_{j}.out > /dev/null"):
+                for std1 in os.listdir(stdcode_path):
+                    mystdout1_path = f"{user_path}/stdout/{my_count}_{std1.split('.')[0]}.out"
+                    if mydiff(mystdout_path, mystdout1_path):
                         diff_num += 1
                         
-                if diff_num < std_count / 2:
+                if diff_num < bar:
                     if stdout_path == "":
                         with file_lock:
                             if stdout_path == "":
                                 stdout_path = f"{user_path}/stdout/{my_count}.out"
-                                os.system(f"cp {user_path}/stdout/{my_count}_{i}.out {stdout_path}")
+                                os.system(f"cp {mystdout_path} {stdout_path}")
                 else:
                     with file_lock:
-                        print(f"file code_{i} error !!")
+                        print(f"file code_{std_user} error !!")
                         num_log = len(os.listdir(log_path))
-                        os.mkdir(f"{log_path}/{num_log}_{i}")
-                        os.system(f"cp {input_path} {log_path}/{num_log}_{i}/input.txt")
-                        for j in range(std_count):
-                            os.system(f"cp {user_path}/stdout/{my_count}_{j}.out {log_path}/{num_log}_{i}/{j}.out")
+                        os.mkdir(f"{log_path}/{num_log}_{std_user}")
+                        os.system(f"cp {input_path} {log_path}/{num_log}_{std_user}/input.txt")
+                        for std1 in os.listdir(stdcode_path):
+                            os.system(f"cp {mystdout_path} {log_path}/{num_log}_{std_user}/{std1.split('.')[0]}.out")
             
             if stdout_path == "":
                 with count_lock:
                     if tot_count != -1:
                         tot_count += 1
+                        if tot_count % (init_tot_count * 3) == 0:
+                            bar += 1
+                            num_worker += 1
                 continue
 
 
@@ -130,7 +154,7 @@ class MyThrd(threading.Thread):
                         can_end = 1
                 
                 else:
-                    is_wrong = os.system(f"diff {userout_path} {stdout_path} > /dev/null")
+                    is_wrong = mydiff(userout_path, stdout_path)
                     
                     if is_wrong:
                         id = json_data['all'] - json_data['ac']

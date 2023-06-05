@@ -1,0 +1,42 @@
+5
+School_0 3
+B-0002 3 N
+C-0001 4 Y
+C-0000 1 Y
+School_1 3
+B-0000 1 Y
+A-0001 3 Y
+C-0000 3 N
+School_2 3
+B-0000 2 Y
+C-0000 3 Y
+A-0000 3 Y
+School_3 3
+C-0000 3 N
+A-0002 4 N
+C-0001 3 N
+School_4 3
+A-0002 2 N
+C-0000 2 Y
+C-0002 1 Y
+20
+[2023-01-04] School_0-00000002 borrowed B-0002
+[2023-01-05] School_0-00000002 lost B-0002
+[2023-01-05] School_1-00000000 borrowed A-0001
+[2023-01-08] School_1-00000001 borrowed B-0000
+[2023-01-09] School_0-00000000 borrowed B-0002
+[2023-01-11] School_3-00000002 borrowed C-0001
+[2023-01-13] School_0-00000000 borrowed C-0001
+[2023-01-13] School_4-00000002 borrowed A-0002
+[2023-01-14] School_3-00000002 borrowed C-0001
+[2023-01-14] School_3-00000002 lost C-0001
+[2023-01-14] School_3-00000002 borrowed A-0002
+[2023-01-15] School_1-00000001 smeared B-0000
+[2023-01-17] School_3-00000000 borrowed C-0000
+[2023-01-18] School_3-00000000 smeared C-0000
+[2023-01-18] School_4-00000000 borrowed A-0002
+[2023-01-18] School_1-00000002 borrowed B-0000
+[2023-01-20] School_1-00000002 borrowed B-0000
+[2023-01-21] School_1-00000001 borrowed A-0001
+[2023-01-22] School_0-00000000 lost C-0001
+[2023-01-23] School_3-00000002 borrowed C-0000

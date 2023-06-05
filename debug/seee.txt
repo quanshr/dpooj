@@ -1,132 +1,208 @@
-[2023-01-04] 00000027 queried C-1000 from self-service machine
-[2023-01-04] 00000027 borrowed C-1000 from self-service machine
-[2023-01-05] 00000008 queried A-0772 from self-service machine
-[2023-01-05] 00000020 queried C-5145 from self-service machine
-[2023-01-05] 00000020 borrowed C-5145 from self-service machine
-[2023-01-07] 00000026 queried B-5111 from self-service machine
-[2023-01-07] 00000026 borrowed B-5111 from borrowing and returning librarian
-[2023-01-11] 00000007 queried C-6231 from self-service machine
-[2023-01-11] 00000007 borrowed C-6231 from self-service machine
-[2023-01-13] 00000029 queried C-0626 from self-service machine
-[2023-01-13] 00000029 borrowed C-0626 from self-service machine
-[2023-01-17] 00000022 queried C-3561 from self-service machine
-[2023-01-17] 00000022 borrowed C-3561 from self-service machine
-[2023-01-20] 00000022 got punished by borrowing and returning librarian
-[2023-01-21] 00000027 queried C-3124 from self-service machine
-[2023-01-21] 00000027 borrowed C-3124 from self-service machine
-[2023-01-21] 00000025 queried C-8853 from self-service machine
-[2023-01-21] 00000025 borrowed C-8853 from self-service machine
-[2023-01-25] 00000020 returned C-5145 to self-service machine
-[2023-01-25] 00000025 returned C-8853 to self-service machine
-[2023-01-27] 00000029 returned C-0626 to self-service machine
-[2023-01-27] 00000019 queried C-0626 from self-service machine
-[2023-01-27] 00000019 borrowed C-0626 from self-service machine
-[2023-01-31] 00000007 queried B-5701 from self-service machine
-[2023-01-31] 00000007 borrowed B-5701 from borrowing and returning librarian
-[2023-02-01] 00000009 queried C-6489 from self-service machine
-[2023-02-01] 00000009 borrowed C-6489 from self-service machine
-[2023-02-01] 00000023 queried A-4458 from self-service machine
-[2023-02-02] 00000027 queried A-5084 from self-service machine
-[2023-02-03] 00000019 returned C-0626 to self-service machine
-[2023-02-04] 00000009 got punished by borrowing and returning librarian
-[2023-02-06] 00000026 got punished by borrowing and returning librarian
-[2023-02-07] 00000028 queried B-8412 from self-service machine
-[2023-02-07] 00000028 borrowed B-8412 from borrowing and returning librarian
-[2023-02-10] 00000008 queried C-5145 from self-service machine
-[2023-02-10] 00000008 borrowed C-5145 from self-service machine
-[2023-02-11] 00000029 queried A-5837 from self-service machine
-[2023-02-11] 00000001 queried C-2551 from self-service machine
-[2023-02-11] 00000001 borrowed C-2551 from self-service machine
-[2023-02-18] 00000007 returned B-5701 to borrowing and returning librarian
-[2023-02-21] 00000009 queried C-2515 from self-service machine
-[2023-02-21] 00000009 borrowed C-2515 from self-service machine
-[2023-02-24] 00000012 queried A-0772 from self-service machine
-[2023-02-24] 00000011 queried B-2991 from self-service machine
-[2023-02-24] 00000011 borrowed B-2991 from borrowing and returning librarian
-[2023-02-26] 00000027 returned C-1000 to self-service machine
-[2023-02-27] 00000016 queried A-1271 from self-service machine
-[2023-03-01] 00000013 queried C-1000 from self-service machine
-[2023-03-01] 00000013 borrowed C-1000 from self-service machine
-[2023-03-03] 00000006 queried A-5326 from self-service machine
-[2023-03-04] 00000027 queried A-1271 from self-service machine
-[2023-03-06] 00000007 queried C-0299 from self-service machine
-[2023-03-06] 00000007 borrowed C-0299 from self-service machine
-[2023-03-08] 00000009 returned C-2515 to self-service machine
-[2023-03-10] 00000013 queried C-3800 from self-service machine
-[2023-03-10] 00000013 borrowed C-3800 from self-service machine
-[2023-03-12] 00000020 queried C-1055 from self-service machine
-[2023-03-12] 00000020 borrowed C-1055 from self-service machine
-[2023-03-14] 00000029 queried B-5701 from self-service machine
-[2023-03-14] 00000029 borrowed B-5701 from borrowing and returning librarian
-[2023-03-16] 00000020 queried C-3124 from self-service machine
-[2023-03-16] 00000020 borrowed C-3124 from self-service machine
-[2023-03-17] 00000013 got punished by borrowing and returning librarian
-[2023-03-17] 00000010 queried B-7791 from self-service machine
-[2023-03-17] 00000010 borrowed B-7791 from borrowing and returning librarian
-[2023-03-19] 00000011 queried A-8765 from self-service machine
-[2023-03-20] 00000015 queried C-1000 from self-service machine
-[2023-03-20] 00000015 borrowed C-1000 from self-service machine
-[2023-03-21] 00000011 queried B-6369 from self-service machine
-[2023-03-22] 00000010 got punished by borrowing and returning librarian
-[2023-03-23] 00000019 queried C-0626 from self-service machine
-[2023-03-23] 00000019 borrowed C-0626 from self-service machine
-[2023-03-23] 00000022 queried A-8765 from self-service machine
-[2023-03-23] 00000007 queried C-2551 from self-service machine
-[2023-03-23] 00000007 borrowed C-2551 from self-service machine
-[2023-03-25] 00000020 queried C-3124 from self-service machine
-[2023-03-25] 00000022 queried B-5701 from self-service machine
-[2023-03-25] 00000022 borrowed B-5701 from borrowing and returning librarian
-[2023-03-25] 00000010 queried C-0626 from self-service machine
-[2023-03-25] 00000010 borrowed C-0626 from self-service machine
-[2023-03-26] 00000020 got punished by borrowing and returning librarian
-[2023-04-02] 00000003 queried C-2515 from self-service machine
-[2023-04-02] 00000003 borrowed C-2515 from self-service machine
-[2023-04-02] 00000012 queried C-6489 from self-service machine
-[2023-04-02] 00000012 borrowed C-6489 from self-service machine
-[2023-04-04] 00000007 queried B-7791 from self-service machine
-[2023-04-04] 00000007 borrowed B-7791 from borrowing and returning librarian
-[2023-04-04] 00000022 returned B-5701 to borrowing and returning librarian
-[2023-04-04] 00000022 queried C-5145 from self-service machine
-[2023-04-04] 00000022 borrowed C-5145 from self-service machine
-[2023-04-05] 00000022 returned C-5145 to self-service machine
-[2023-04-07] 00000016 queried B-2991 from self-service machine
-[2023-04-07] 00000016 ordered B-2991 from ordering librarian
-[2023-04-07] 00000025 queried C-1055 from self-service machine
-[2023-04-07] 00000025 borrowed C-1055 from self-service machine
-[2023-04-09] 00000012 returned C-6489 to self-service machine
-[2023-04-09] 00000000 queried C-0855 from self-service machine
-[2023-04-09] 00000000 borrowed C-0855 from self-service machine
-[2023-04-10] 00000003 got punished by borrowing and returning librarian
-[2023-04-10] 00000015 queried C-6489 from self-service machine
-[2023-04-10] 00000015 borrowed C-6489 from self-service machine
-[2023-04-13] 00000015 got punished by borrowing and returning librarian
-[2023-04-18] 00000006 queried A-4458 from self-service machine
-[2023-04-19] 00000013 queried A-7087 from self-service machine
-[2023-04-19] 00000000 queried A-1772 from self-service machine
-[2023-04-24] 00000019 queried C-1055 from self-service machine
-[2023-04-24] 00000019 borrowed C-1055 from self-service machine
-[2023-04-25] 00000029 queried A-5837 from self-service machine
-[2023-04-25] 00000016 queried B-5111 from self-service machine
-[2023-04-25] 00000016 borrowed B-5111 from borrowing and returning librarian
-[2023-04-27] 00000016 got punished by borrowing and returning librarian
-[2023-04-29] 00000002 queried B-1475 from self-service machine
-[2023-04-29] 00000002 borrowed B-1475 from borrowing and returning librarian
-[2023-04-30] 00000006 queried A-1271 from self-service machine
-[2023-05-03] 00000013 queried C-6231 from self-service machine
-[2023-05-03] 00000013 borrowed C-6231 from self-service machine
-[2023-05-03] 00000008 queried C-2651 from self-service machine
-[2023-05-03] 00000008 borrowed C-2651 from self-service machine
-[2023-05-05] 00000022 queried A-8227 from self-service machine
-[2023-05-05] 00000011 returned B-2991 to borrowing and returning librarian
-[2023-05-09] 00000015 queried A-5084 from self-service machine
-[2023-05-09] 00000007 queried C-0626 from self-service machine
-[2023-05-09] 00000007 borrowed C-0626 from self-service machine
-[2023-05-10] 00000012 queried C-8853 from self-service machine
-[2023-05-10] 00000012 borrowed C-8853 from self-service machine
-[2023-05-12] 00000012 returned C-8853 to self-service machine
-[2023-05-14] 00000012 queried A-2564 from self-service machine
-[2023-05-17] 00000003 queried C-0626 from self-service machine
-[2023-05-17] 00000003 borrowed C-0626 from self-service machine
-[2023-05-18] 00000002 returned B-1475 to borrowing and returning librarian
-You don't have book: B-2991
-[2023-05-19] 00000003 got punished by borrowing and returning librarian
+import threading
+import time
+import os, sys
+import shutil
+from random import sample
+import json
+
+hw = 14
+
+workplace_path = '../static/workplace'
+java_path = '../jdk8/jdk1.8.0_152/bin/java'
+# args
+num_worker = 2
+std_path = f"{workplace_path}/std"
+stdcode_path = f"{std_path}/code_hw{hw}"
+log_path = f"{std_path}/log"
+user = sys.argv[1]
+print(f"{user} begin to run code!")
+
+user_path = f"{workplace_path}/users/{sys.argv[1]}"
+result_path = f"{user_path}/result.json"
+
+with open(f"{user_path}/runargs.json", 'r') as file:
+    runargs = json.load(file)
+runargs['is_running'] = 1
+with open(f"{user_path}/runargs.json", 'w') as file:
+    json.dump(runargs, file)
+    
+tot_count = runargs['num_runs']
+init_tot_count = tot_count
+#tot_count = 2000
+
+
+log_count = 0
+count_lock = threading.Lock()
+file_lock = threading.Lock()
+now_count = 0
+result_template = {'all':0, 'ac':0, 'wa':0, 're':0, 'tle':0, 'uke':0}
+RE = 256
+TLE = 31744
+mx_err = 3
+can_end = 0
+std_count = len(os.listdir(stdcode_path))
+bar = std_count / 2
+
+print("begin")
+
+class MyThrd(threading.Thread):
+    def __init__(self , thread_id):
+        super(MyThrd,self).__init__()
+        self.thread_id = thread_id
+        #print(f"{self.thread_id} build")
+    def run(self):
+        global log_count, now_count, can_end, tot_count, bar
+        while not can_end and (now_count < tot_count or tot_count == -1):
+            
+            with file_lock:
+                with open(f"{std_path}/can_run", 'r') as file:
+                    can_run = file.read()
+                if can_run == "0":
+                    time.sleep(1)
+                    continue
+            
+            if num_worker == 2:
+                time.sleep(1)
+            
+            with count_lock:
+                if now_count >= tot_count:
+                    break
+                now_count += 1
+                my_count = now_count
+            input_path = f"{user_path}/input/{my_count}.in"
+            os.system(f"java -jar maker/maker_hw{hw}.jar {runargs['t']} {runargs['n']} \
+                {runargs['m']} {runargs['student_count']} > {input_path}")
+
+            run_status = self.runcode(user_path, input_path, my_count)
+            userout_path = f"{user_path}/output/{my_count}.out"
+            stdout_path = ""
+
+            for i in range(std_count):
+                os.system(f"timeout 30 java -XX:MaxNewSize=128m -jar {stdcode_path}/code_{i}.jar < {input_path} > {user_path}/stdout/{my_count}_{i}.out")
+            for i in range(std_count):
+                diff_num = 0
+                for j in range(std_count):
+                    if os.system(f"diff {user_path}/stdout/{my_count}_{i}.out {user_path}/stdout/{my_count}_{j}.out > /dev/null"):
+                        diff_num += 1
+                        
+                if diff_num < bar:
+                    if stdout_path == "":
+                        with file_lock:
+                            if stdout_path == "":
+                                stdout_path = f"{user_path}/stdout/{my_count}.out"
+                                os.system(f"cp {user_path}/stdout/{my_count}_{i}.out {stdout_path}")
+                else:
+                    with file_lock:
+                        print(f"file code_{i} error !!")
+                        num_log = len(os.listdir(log_path))
+                        os.mkdir(f"{log_path}/{num_log}_{i}")
+                        os.system(f"cp {input_path} {log_path}/{num_log}_{i}/input.txt")
+                        for j in range(std_count):
+                            os.system(f"cp {user_path}/stdout/{my_count}_{j}.out {log_path}/{num_log}_{i}/{j}.out")
+            
+            if stdout_path == "":
+                with count_lock:
+                    if tot_count != -1:
+                        tot_count += 1
+                        if tot_count % (init_tot_count * 3) == 0:
+                            bar += 1
+                continue
+
+
+
+            with file_lock:
+                with open(result_path, 'r') as file:
+                    json_data = json.load(file)
+                if run_status:
+                    id = json_data['all'] - json_data['ac']
+                    os.system(f"cp {input_path} {user_path}/wrongdata/{id}.in")
+                    os.system(f"cp {stdout_path} {user_path}/wrongdata/{id}.ans")
+                    json_data['all'] += 1
+                    if run_status == RE:
+                        os.system(f"echo 'your code seems to be RE' > {user_path}/wrongdata/{id}.re")
+                        json_data['re'] += 1                   
+                    elif run_status == TLE:
+                        os.system(f"echo 'your code seems to be TLE' > {user_path}/wrongdata/{id}.tle")
+                        json_data['tle'] += 1                    
+                    else:
+                        os.system(f"echo 'there seems to be an Unknown Error with your code. \n(Error Code: {run_status})' > {user_path}/wrongdata/{id}.uke")
+                        json_data['uke'] += 1
+                        os.system(f"echo 'error code: {run_status}' > errorcode.txt")
+                    with open(result_path, 'w') as file:
+                        json.dump(json_data, file)
+                    if id >= mx_err - 1:
+                        can_end = 1
+                
+                else:
+                    is_wrong = os.system(f"diff {userout_path} {stdout_path} > /dev/null")
+                    
+                    if is_wrong:
+                        id = json_data['all'] - json_data['ac']
+                        os.system(f"cp {userout_path} {user_path}/wrongdata/{id}.out")
+                        os.system(f"cp {input_path} {user_path}/wrongdata/{id}.in")
+                        os.system(f"cp {stdout_path} {user_path}/wrongdata/{id}.ans")
+                        os.system(f"diff {userout_path} {stdout_path} > {user_path}/wrongdata/{id}.diff")
+                        if id >= mx_err - 1:
+                            can_end = 1
+
+                    json_data['all'] += 1
+                    json_data['ac'] += 0 if is_wrong else 1
+                    json_data['wa'] += 1 if is_wrong else 0
+                    with open(result_path, 'w') as file:
+                        json.dump(json_data, file)
+
+            os.system(f"rm {input_path}")
+            os.system(f"rm {stdout_path}")
+            os.system(f"rm {userout_path}")
+
+    def runcode(self, user_path, input_path, my_count):
+        r = os.system(f"timeout 15 java -XX:MaxNewSize=128m -jar {user_path}/code_hw{hw}.jar < {input_path} > {user_path}/output/{my_count}.out 2> /dev/null")
+        if r == RE:
+            r = os.system(f"timeout 15 {java_path} -XX:MaxNewSize=128m -jar {user_path}/code_hw{hw}.jar < {input_path} > {user_path}/output/{my_count}.out")
+
+def cleandir(name):
+    if os.path.isdir(name):
+        shutil.rmtree(name)
+    os.mkdir(name)
+
+def cleanfile(name):
+    if os.path.exists(name):
+        os.system(f"rm {name}")
+    os.system(f"touch {name}")
+
+cleandir(f"{user_path}/input")
+cleandir(f"{user_path}/output")
+cleandir(f"{user_path}/wrongdata")
+cleandir(f"{user_path}/stdout")
+cleanfile(result_path)
+with open(result_path, 'w') as file:
+    json.dump(result_template, file)
+if not os.path.exists(log_path):
+    os.mkdir(log_path)
+
+    
+threads = []
+for i in range(num_worker):
+    thread = MyThrd(i)
+    threads.append(thread)
+    thread.start()
+
+for thread in threads:
+    thread.join()
+    
+print(f"finish run :{sys.argv[1]}, {now_count}")
+
+runargs['is_running'] = 0
+with open(f"{user_path}/runargs.json", 'w') as file:
+    json.dump(runargs, file)
+    
+
+with open(result_path, 'r') as file:
+    json_data = json.load(file)
+if json_data['all'] == json_data['ac']:
+    print(f"\033[1m\033[32m{user}: {json_data}\033[0m")
+else:
+    print(f"\033[1m\033[31m{user}: {json_data}\033[0m")
+    
+
+    
