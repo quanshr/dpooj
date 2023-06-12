@@ -7,14 +7,16 @@ import json
 
 hw = 14
 
-tot_count = 20
+tot_count = 30
+if len(sys.argv) > 1:
+    tot_count = int(sys.argv[1])
+    print(sys.argv[1])
 t = 2
-n = 3
-m = 50
+n = 5
+m = 100
 student_count = 5
 
-workplace_path = '../static/workplace'
-java_path = '../jdk8/jdk1.8.0_152/bin/java'
+workplace_path = '../../static/workplace'
 # args
 num_worker = 2
 std_path = f"{workplace_path}/std"
@@ -22,7 +24,7 @@ stdcode_path = f"{std_path}/code_hw{hw}"
 log_path = f"{std_path}/log"
 
 import sys
-sys.path.append('../')
+sys.path.append('../../')
 from init import db, app
 from models import User
 #from flask_script import Manager, Shell
@@ -48,6 +50,8 @@ def cleanfile(name):
 cleandir("in")
 cleandir("out")
 
+users.sort()
+print(users)
 print(f"{len(users)} users begin to run code!")
 
 users_path = f"{workplace_path}/users"
@@ -89,27 +93,31 @@ for my_count in range(tot_count):
     output_path = f"out/{my_count}"
     os.system(f"mkdir {output_path}")
     
-    os.system(f"java -jar maker/maker_hw{hw}.jar {t} {n} \
+    os.system(f"java -jar ../maker/maker_hw14.jar {t} {n} \
         {m} {student_count} > {input_path}")
 
+    
     for user in users:
-        os.system(f"timeout 10 java -XX:MaxNewSize=128m -jar \
+        os.system(f"timeout 5 java -XX:MaxNewSize=128m -jar \
             {users_path}/{user}/code_hw{hw}.jar < {input_path} > {output_path}/{user}.out")
     for user in users:
-        for user1 in users:
-            if not mydiff(f"out/{output_path}/{user}.out", f"out/{output_path}/{user1}.out"):
-                same_count[user] += 1
-                
+        if myhash(f"{output_path}/{user}.out") != 0:
+            for user1 in users:
+                if not mydiff(f"{output_path}/{user}.out", f"{output_path}/{user1}.out"):
+                    same_count[user] += 1
+    print(my_count)
+    
 mx = 0
 for user in users:
     if same_count[user] > mx:
         mx = same_count[user]
     print(user, same_count[user])
 
-std_path = f"{workplace_path}/std/code_hw{hw}"
+
+cleandir(f"{std_path}/code")
 std_count = 0
 for user in users:
     if same_count[user] == mx:
-        os.system(f"cp {users_path}/{user}/code_hw{hw}.jar {std_path}/{user}.jar")
+        os.system(f"cp {users_path}/{user}/code_hw{hw}.jar {std_path}/code/{user}.jar")
         print(user)
     

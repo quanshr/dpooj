@@ -399,6 +399,7 @@ def start():
     return "评测已完成！"
 
 if __name__=='__main__':
+    print(sys.argv[0])
     if sys.argv[0] == 'app.py':
         app.run(host='0.0.0.0', port='8080', debug = False)
     else:

@@ -355,7 +355,8 @@ def update():
         return json.loads('{"code":"1","info":"%s"}'%("还未开始评测，请稍等"))
 
 def checkargs(runargs):
-    for arg, bound in args:
+    print(runargs)
+    for arg, bound in args.items():
         if arg not in runargs or not isinstance(runargs[arg], int) \
             or runargs[arg] < bound[0] or runargs[arg] > bound[1]:
             return False
@@ -369,8 +370,11 @@ def start():
     user_path=f"{app.config['WORKPLACE_FOLDER']}/users/{username}"
     runargs_path=f'{user_path}/runargs.json'
     can_start=0
-    with open(runargs_path,'r',encoding='utf8') as fp:
-        runargs = json.load(fp)
+    with open(runargs_path, 'r', encoding='utf8') as fp:
+        try:
+            runargs = json.load(fp)
+        except json.decoder.JSONDecodeError:
+            runargs = {}
         if 'is_running' not in runargs.keys():
             runargs['is_running'] = 0
             
@@ -395,5 +399,8 @@ def start():
     return "评测已完成！"
 
 if __name__=='__main__':
-    app.run(host='0.0.0.0', port='8080',debug=0)
+    if sys.argv[0] == 'app.py':
+        app.run(host='0.0.0.0', port='8080', debug = False)
+    else:
+        app.run(host='0.0.0.0', port='5001', debug = True)
     

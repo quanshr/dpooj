@@ -5,7 +5,7 @@ import shutil
 from random import sample
 import json
 
-hw = 14
+hw = 15
 
 workplace_path = '../static/workplace'
 java_path = '../jdk8/jdk1.8.0_152/bin/java'
@@ -52,7 +52,7 @@ def clearstate(file_path):
             txt = file.readlines()
         
         for line in txt:
-            if line.startswith('(State)'):
+            if line.startswith('('):
                 txt.remove(line)
         
         with open(file_path, 'w') as file:

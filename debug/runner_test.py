@@ -45,21 +45,30 @@ bar = std_count / 2
 
 print("begin")
 
+def clearstate(file_path):
+    with open(file_path, 'r') as file:
+        txt = file.readlines()
+
 def myhash(file_path):
     with open(file_path, 'r') as file:
         txt = file.readlines()
-    
+            
     res = 0
     for line in txt:
         if line[0] == '[':
             for ch in line:
                 res += ord(ch)
+        else:
+            print(line)
     return res
     
     
 def mydiff(file1, file2):
     return myhash(file1) != myhash(file2)
 
+
+
+    
 
 class MyThrd(threading.Thread):
     def __init__(self , thread_id):
@@ -91,10 +100,12 @@ class MyThrd(threading.Thread):
 
             run_status = self.runcode(user_path, input_path, my_count)
             userout_path = f"{user_path}/output/{my_count}.out"
+            clearstate(userout_path)
             stdout_path = ""
 
             for std in os.listdir(stdcode_path):
                 os.system(f"timeout 30 java -XX:MaxNewSize=128m -jar {stdcode_path}/{std} < {input_path} > {user_path}/stdout/{my_count}_{std.split('.')[0]}.out")
+                clearstate(f"{user_path}/stdout/{my_count}_{std.split('.')[0]}.out")
             for std in os.listdir(stdcode_path):
                 std_user = std.split('.')[0]
                 mystdout_path = f"{user_path}/stdout/{my_count}_{std_user}.out"
@@ -114,7 +125,7 @@ class MyThrd(threading.Thread):
                     with file_lock:
                         print(f"file code_{std_user} error !!")
                         num_log = len(os.listdir(log_path))
-                        os.mkdir(f"{log_path}/{num_log}_{i}")
+                        os.mkdir(f"{log_path}/{num_log}_{std_user}")
                         os.system(f"cp {input_path} {log_path}/{num_log}_{std_user}/input.txt")
                         for std1 in os.listdir(stdcode_path):
                             os.system(f"cp {mystdout_path} {log_path}/{num_log}_{std_user}/{std1.split('.')[0]}.out")

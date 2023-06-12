@@ -1,0 +1,3308 @@
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:127)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at School.doCommand(School.java:84)
+	at MainClass.main(MainClass.java:66)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.LibraryManager.addCheck(LibraryManager.java:92)
+	at library.Library.borrowed(Library.java:111)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:228)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setFlag(int)" because the return value of "Student.getBid()" is null
+	at MainClass.handleBook(MainClass.java:117)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setBeSmeared(boolean)" because "book" is null
+	at Student.smearBook(Student.java:112)
+	at MainClass.forM(MainClass.java:173)
+	at MainClass.m2(MainClass.java:120)
+	at MainClass.main(MainClass.java:283)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:50)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared(String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:128)
+	at Deal.delBC(Deal.java:80)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Book.returnBook(Book.java:71)
+	at PurchasingDepartment.arrange(PurchasingDepartment.java:139)
+	at ArrangingLibrarian.arrange(ArrangingLibrarian.java:25)
+	at Main.arrange(Main.java:61)
+	at Main.operate(Main.java:177)
+	at Main.main(Main.java:222)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:55)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setBeLost(boolean)" because "book" is null
+	at Student.lostBook(Student.java:116)
+	at MainClass.forM(MainClass.java:175)
+	at MainClass.m2(MainClass.java:120)
+	at MainClass.main(MainClass.java:283)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "BBook.queryindex()" because "this.bbook" is null
+	at Student.returned(Student.java:39)
+	at Library.lost(Library.java:158)
+	at Library.trigger(Library.java:431)
+	at World.<init>(World.java:74)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchoolName()" because "target" is null
+	at Student.lost(Student.java:85)
+	at LibrarySys.stuFix(LibrarySys.java:76)
+	at LibrarySys.work(LibrarySys.java:61)
+	at Main.main(Main.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:50)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared(String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:128)
+	at Deal.delBC(Deal.java:80)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "this.borrowB" is null
+	at member.Student.lostBook(Student.java:71)
+	at Library.lostBook(Library.java:134)
+	at Main.main(Main.java:61)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getType()" because "book" is null
+	at Library.output(Library.java:204)
+	at Library.handleLoss(Library.java:136)
+	at Controller.handleLoss(Controller.java:229)
+	at Controller.handleEvent(Controller.java:209)
+	at Controller.daytime(Controller.java:101)
+	at Controller.solve(Controller.java:35)
+	at MainClass.main(MainClass.java:3)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.remove(ArrayList.java:504)
+	at Student.removeBook(Student.java:44)
+	at BorrowingLibrarian.lost(BorrowingLibrarian.java:57)
+	at Main.operate(Main.java:199)
+	at Main.main(Main.java:222)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getName()" because "book" is null
+	at BorrowAndReturnLibrarian.arrangeLost(BorrowAndReturnLibrarian.java:42)
+	at Library.arrangeLost(Library.java:227)
+	at Library.manager(Library.java:92)
+	at Manager.assignRequest(Manager.java:30)
+	at MainClass.main(MainClass.java:27)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getId()" because "book" is null
+	at Student.returnBook(Student.java:43)
+	at LoanManager.lostRegister(LoanManager.java:41)
+	at Library.missing(Library.java:103)
+	at Library.handleQuery(Library.java:45)
+	at Controller.running(Controller.java:81)
+	at Main.main(Main.java:4)
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at Stu.setSmeardBook(Stu.java:15)
+	at Library.processQuery(Library.java:91)
+	at Main.main(Main.java:23)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setSmeared(boolean)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Person.smear(Person.java:18)
+	at Library.receiveReq(Library.java:183)
+	at Controller.inDay(Controller.java:101)
+	at Controller.run(Controller.java:49)
+	at MainClass.main(MainClass.java:45)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:127)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:60)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setDamaged(boolean)" because "book1" is null
+	at Student.damageBook(Student.java:19)
+	at Library.doSmeared(Library.java:133)
+	at Library.finishIns(Library.java:32)
+	at LibraryManager.finshInstruct(LibraryManager.java:86)
+	at Main.main(Main.java:25)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setSmeared(boolean)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearedBook(Student.java:70)
+	at Library.dealSmeared(Library.java:142)
+	at Library.dealEvent(Library.java:53)
+	at Controller.dealEvent(Controller.java:44)
+	at Controller.run(Controller.java:170)
+	at Main.main(Main.java:36)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.damage()" because "book" is null
+	at Student.smearedBook(Student.java:107)
+	at MainClass.action(MainClass.java:136)
+	at MainClass.main(MainClass.java:64)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:228)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.removefixedbtBook(Library.java:50)
+	at MainClass.handleBook(MainClass.java:127)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.smear()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Person.smearBook(Person.java:28)
+	at Library.smearBook(Library.java:102)
+	at Library.schedule(Library.java:222)
+	at Scheduler.schedule(Scheduler.java:81)
+	at Scheduler.addRequest(Scheduler.java:31)
+	at Main.main(Main.java:19)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setBeSmeared(boolean)" because "book" is null
+	at Student.smearBook(Student.java:112)
+	at MainClass.forM(MainClass.java:173)
+	at MainClass.m2(MainClass.java:120)
+	at MainClass.main(MainClass.java:283)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.rePut(Library.java:388)
+	at Library.arrange(Library.java:429)
+	at Main.main(Main.java:61)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared()" because "this.bsBook" is null
+	at Student.smearBook(Student.java:71)
+	at Library.smearBook(Library.java:119)
+	at Schools.solve(Schools.java:166)
+	at Main.main(Main.java:8)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "src.Book.getSmeared()" because "this.bookB" is null
+	at src.Student.smearBook(Student.java:52)
+	at src.Operation.doSmeared(Operation.java:154)
+	at src.Operation.getExecuted(Operation.java:68)
+	at src.MainClass.main(MainClass.java:76)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.smeared(Student)" because "book" is null
+	at Library.smeared(Library.java:147)
+	at Library.trigger(Library.java:427)
+	at World.<init>(World.java:74)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.smeared()" because "target" is null
+	at Student.smear(Student.java:73)
+	at LibrarySys.stuFix(LibrarySys.java:73)
+	at LibrarySys.work(LibrarySys.java:61)
+	at Main.main(Main.java:4)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.smeared()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smeared(Student.java:57)
+	at Library.process(Library.java:93)
+	at MainClass.process(MainClass.java:75)
+	at MainClass.main(MainClass.java:46)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:50)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setSmear(java.lang.Boolean)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:62)
+	at Library.smearBook(Library.java:70)
+	at Controller.handleMessage(Controller.java:47)
+	at MainClass.main(MainClass.java:57)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared(String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:125)
+	at Deal.delBC(Deal.java:80)
+	at Deal.delRequest(Deal.java:30)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "this.borrowB" is null
+	at member.Student.smearedBook(Student.java:79)
+	at Library.smearedBook(Library.java:141)
+	at Main.main(Main.java:63)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.smear()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smear(Student.java:44)
+	at Library.serve(Library.java:105)
+	at Main.main(Main.java:48)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.smear()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smear(Student.java:23)
+	at Controller.handleSmear(Controller.java:225)
+	at Controller.handleEvent(Controller.java:206)
+	at Controller.daytime(Controller.java:101)
+	at Controller.solve(Controller.java:35)
+	at MainClass.main(MainClass.java:3)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setSmeared(boolean)" because the return value of "Student.getBorrowB()" is null
+	at School.smearBook(School.java:220)
+	at School.operate(School.java:133)
+	at Operate.run(Operate.java:43)
+	at MainClass.main(MainClass.java:42)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Person.check(Person.java:51)
+	at Library.solveReturned(Library.java:155)
+	at Library.solveAll(Library.java:240)
+	at Controller.run(Controller.java:125)
+	at MainClass.main(MainClass.java:33)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:60)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "book.Book.getCategory()" because "book" is null
+	at main.Lib.dealReturn(Lib.java:167)
+	at main.Magic.main(Magic.java:160)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.isSmeared()" because "bookReturned" is null
+	at SelfServiceMachine.returnBookCheck(SelfServiceMachine.java:57)
+	at Runner.returnOperation(Runner.java:119)
+	at Runner.doOperation(Runner.java:69)
+	at Controller.doOperation(Controller.java:67)
+	at Main.main(Main.java:45)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.isSmeared()" because "book" is null
+	at Library.dealReturn(Library.java:147)
+	at Library.dealEvent(Library.java:55)
+	at Controller.dealEvent(Controller.java:44)
+	at Controller.run(Controller.java:170)
+	at Main.main(Main.java:36)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getName()" because "book" is null
+	at Student.returnbook(Student.java:45)
+	at Library.returnbook(Library.java:126)
+	at Schools.open(Schools.java:94)
+	at Schools.deal(Schools.java:39)
+	at Main.main(Main.java:42)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setBeLost(boolean)" because "book" is null
+	at Student.lostBook(Student.java:116)
+	at MainClass.forM(MainClass.java:175)
+	at MainClass.m2(MainClass.java:120)
+	at MainClass.main(MainClass.java:283)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:50)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getFrom()" because "book" is null
+	at Student.returnBook(Student.java:104)
+	at Deal.delBC(Deal.java:84)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.isSmeared()" because "book" is null
+	at Library.handleReturn(Library.java:142)
+	at Controller.handleReturn(Controller.java:233)
+	at Controller.handleEvent(Controller.java:212)
+	at Controller.daytime(Controller.java:101)
+	at Controller.solve(Controller.java:35)
+	at MainClass.main(MainClass.java:3)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at School.doCommand(School.java:84)
+	at MainClass.main(MainClass.java:66)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.removeIf(java.util.function.Predicate)" because "list" is null
+	at Library.remove(Library.java:251)
+	at Library.lostBook(Library.java:171)
+	at Library.working(Library.java:39)
+	at Scheduler.working(Scheduler.java:26)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.LibraryManager.addCheck(LibraryManager.java:92)
+	at library.Library.borrowed(Library.java:111)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:48)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getFrom()" because "book" is null
+	at Student.returnBook(Student.java:98)
+	at Deal.delBC(Deal.java:84)
+	at Deal.delRequest(Deal.java:30)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at School.doCommand(School.java:84)
+	at MainClass.main(MainClass.java:66)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.LibraryManager.addCheck(LibraryManager.java:92)
+	at library.Library.borrowed(Library.java:111)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:228)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.removefixedbtBook(Library.java:50)
+	at MainClass.handleBook(MainClass.java:127)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:50)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getFrom()" because "book" is null
+	at Student.returnBook(Student.java:104)
+	at Deal.delBC(Deal.java:84)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:60)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:228)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.removefixedbtBook(Library.java:50)
+	at MainClass.handleBook(MainClass.java:127)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:48)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared(String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:125)
+	at Deal.delBC(Deal.java:80)
+	at Deal.delRequest(Deal.java:30)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Person.check(Person.java:49)
+	at Library.solveReturned(Library.java:155)
+	at Library.solveAll(Library.java:240)
+	at Controller.run(Controller.java:125)
+	at MainClass.main(MainClass.java:33)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:127)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:55)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "book.Book.getCategory()" because "book" is null
+	at main.Lib.dealReturn(Lib.java:167)
+	at main.Magic.main(Magic.java:160)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.isSmeared()" because "bookReturned" is null
+	at BorrowingAndReturningLibrarian.returnBookCheck(BorrowingAndReturningLibrarian.java:52)
+	at Runner.returnOperation(Runner.java:117)
+	at Runner.doOperation(Runner.java:69)
+	at Controller.doOperation(Controller.java:67)
+	at Main.main(Main.java:45)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getName()" because "book" is null
+	at Student.returnbook(Student.java:45)
+	at Library.returnbook(Library.java:126)
+	at Schools.open(Schools.java:94)
+	at Schools.deal(Schools.java:39)
+	at Main.main(Main.java:42)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setBeLost(boolean)" because "book" is null
+	at Student.lostBook(Student.java:116)
+	at MainClass.forM(MainClass.java:175)
+	at MainClass.m2(MainClass.java:120)
+	at MainClass.main(MainClass.java:283)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.outBorrowBook(Library.java:56)
+	at Library.borrowFromOut(Library.java:144)
+	at Library.borrowBook(Library.java:195)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 6 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:48)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared(String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:125)
+	at Deal.delBC(Deal.java:80)
+	at Deal.delRequest(Deal.java:30)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:127)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at School.doCommand(School.java:84)
+	at MainClass.main(MainClass.java:66)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.LibraryManager.addCheck(LibraryManager.java:92)
+	at library.Library.borrowed(Library.java:111)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:228)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.removefixedbtBook(Library.java:50)
+	at MainClass.handleBook(MainClass.java:127)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:48)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared(String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:125)
+	at Deal.delBC(Deal.java:80)
+	at Deal.delRequest(Deal.java:30)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:60)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:50)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared(String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:128)
+	at Deal.delBC(Deal.java:80)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:60)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:228)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:50)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getFrom()" because "book" is null
+	at Student.returnBook(Student.java:104)
+	at Deal.delBC(Deal.java:84)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at School.doCommand(School.java:84)
+	at MainClass.main(MainClass.java:66)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.removeIf(java.util.function.Predicate)" because "list" is null
+	at Library.remove(Library.java:251)
+	at Library.lostBook(Library.java:171)
+	at Library.working(Library.java:39)
+	at Scheduler.working(Scheduler.java:26)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Schedule.interBorrow(Schedule.java:127)
+	at Schedule.handleRequest(Schedule.java:21)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Schedule.interBorrow(Schedule.java:127)
+	at Schedule.handleRequest(Schedule.java:21)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.util.HashMap.get(Object)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Controller.minusBookAmount(Controller.java:52)
+	at Runner.lostOperation(Runner.java:109)
+	at Runner.doOperation(Runner.java:67)
+	at Controller.doOperation(Controller.java:67)
+	at Main.main(Main.java:45)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Schedule.interBorrow(Schedule.java:127)
+	at Schedule.handleRequest(Schedule.java:21)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.LibraryManager.addCheck(LibraryManager.java:92)
+	at library.Library.borrowed(Library.java:111)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:228)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setBeLost(boolean)" because "book" is null
+	at Student.lostBook(Student.java:116)
+	at MainClass.forM(MainClass.java:175)
+	at MainClass.m2(MainClass.java:120)
+	at MainClass.main(MainClass.java:283)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.outBorrowBook(Library.java:56)
+	at Library.borrowFromOut(Library.java:144)
+	at Library.borrowBook(Library.java:195)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 6 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:50)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared(String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:128)
+	at Deal.delBC(Deal.java:80)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Schedule.interBorrow(Schedule.java:127)
+	at Schedule.handleRequest(Schedule.java:21)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Schedule.interBorrow(Schedule.java:128)
+	at Schedule.handleRequest(Schedule.java:21)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:60)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Schedule.interBorrow(Schedule.java:127)
+	at Schedule.handleRequest(Schedule.java:21)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Schedule.interBorrow(Schedule.java:127)
+	at Schedule.handleRequest(Schedule.java:21)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Schedule.interBorrow(Schedule.java:127)
+	at Schedule.handleRequest(Schedule.java:21)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.LibraryManager.addCheck(LibraryManager.java:92)
+	at library.Library.borrowed(Library.java:111)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.removefixedbtBook(Library.java:50)
+	at MainClass.handleBook(MainClass.java:127)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.outBorrowBook(Library.java:56)
+	at Library.borrowFromOut(Library.java:144)
+	at Library.borrowBook(Library.java:195)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 6 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:50)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getFrom()" because "book" is null
+	at Student.returnBook(Student.java:104)
+	at Deal.delBC(Deal.java:84)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Schedule.interBorrow(Schedule.java:127)
+	at Schedule.handleRequest(Schedule.java:21)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Schedule.interBorrow(Schedule.java:128)
+	at Schedule.handleRequest(Schedule.java:21)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at School.doCommand(School.java:84)
+	at MainClass.main(MainClass.java:66)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.removeIf(java.util.function.Predicate)" because "list" is null
+	at Library.remove(Library.java:251)
+	at Library.lostBook(Library.java:171)
+	at Library.working(Library.java:39)
+	at Scheduler.working(Scheduler.java:26)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setBeLost(boolean)" because "book" is null
+	at Student.lostBook(Student.java:116)
+	at MainClass.forM(MainClass.java:175)
+	at MainClass.m2(MainClass.java:120)
+	at MainClass.main(MainClass.java:283)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:48)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getFrom()" because "book" is null
+	at Student.returnBook(Student.java:104)
+	at Deal.delBC(Deal.java:84)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:55)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Student.addBookC(String, String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Controller.receiveBooks(Controller.java:198)
+	at Controller.run(Controller.java:38)
+	at Main.main(Main.java:12)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.damage()" because "book" is null
+	at Student.smearedBook(Student.java:107)
+	at MainClass.action(MainClass.java:136)
+	at MainClass.main(MainClass.java:64)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getType()" because "book" is null
+	at Student.returnBook(Student.java:136)
+	at MainClass.forM(MainClass.java:177)
+	at MainClass.m2(MainClass.java:120)
+	at MainClass.main(MainClass.java:283)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:48)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getFrom()" because "book" is null
+	at Student.returnBook(Student.java:104)
+	at Deal.delBC(Deal.java:84)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:60)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.setBeLost(boolean)" because "book" is null
+	at Student.lostBook(Student.java:116)
+	at MainClass.forM(MainClass.java:175)
+	at MainClass.m2(MainClass.java:120)
+	at MainClass.main(MainClass.java:283)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:50)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getFrom()" because "book" is null
+	at Student.returnBook(Student.java:104)
+	at Deal.delBC(Deal.java:84)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:55)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.returnBook(Library.java:45)
+	at ArrangingLibrarian.update(ArrangingLibrarian.java:43)
+	at MainClass.update(MainClass.java:177)
+	at MainClass.action(MainClass.java:130)
+	at MainClass.main(MainClass.java:64)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getType()" because "book" is null
+	at Student.returnBook(Student.java:136)
+	at MainClass.forM(MainClass.java:177)
+	at MainClass.m2(MainClass.java:120)
+	at MainClass.main(MainClass.java:283)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:48)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getFrom()" because "book" is null
+	at Student.returnBook(Student.java:104)
+	at Deal.delBC(Deal.java:84)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:60)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getType()" because "book" is null
+	at Student.returnBook(Student.java:136)
+	at MainClass.forM(MainClass.java:177)
+	at MainClass.m2(MainClass.java:120)
+	at MainClass.main(MainClass.java:283)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:48)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared(String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:128)
+	at Deal.delBC(Deal.java:80)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Person.check(Person.java:49)
+	at Library.solveReturned(Library.java:155)
+	at Library.solveAll(Library.java:240)
+	at Controller.run(Controller.java:125)
+	at MainClass.main(MainClass.java:33)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:127)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:55)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.util.ArrayList.removeIf(java.util.function.Predicate)" because "list" is null
+	at Library.remove(Library.java:251)
+	at Library.lostBook(Library.java:171)
+	at Library.working(Library.java:39)
+	at Scheduler.working(Scheduler.java:26)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.rePut(Library.java:388)
+	at Library.arrange(Library.java:430)
+	at Main.main(Main.java:61)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:48)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared(String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:125)
+	at Deal.delBC(Deal.java:80)
+	at Deal.delRequest(Deal.java:30)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:12)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getCount()" because the return value of "java.util.HashMap.get(Object)" is null
+	at Library.whetherBook(Library.java:134)
+	at ReservationAdmin.completeReserve(ReservationAdmin.java:142)
+	at MainClass.main(MainClass.java:82)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at ArrangeManager.arrange(ArrangeManager.java:56)
+	at School.doArrange(School.java:240)
+	at MainClass.doArrange(MainClass.java:133)
+	at MainClass.main(MainClass.java:55)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Runner.run(Runner.java:34)
+	at MainClass.main(MainClass.java:4)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at library.OrderingLibrarian.remove(OrderingLibrarian.java:27)
+	at library.Library.borrowed(Library.java:103)
+	at library.LibraryManager.deal(LibraryManager.java:199)
+	at main.MainClass.work(MainClass.java:35)
+	at main.MainClass.main(MainClass.java:44)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.borrow(Library.java:247)
+	at Solver.solve(Solver.java:83)
+	at Main.main(Main.java:3)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.getSchool()" because the return value of "java.util.HashMap.get(Object)" is null
+	at MainClass.handleDateone(MainClass.java:233)
+	at MainClass.arrangeDay(MainClass.java:165)
+	at MainClass.handleBook(MainClass.java:86)
+	at MainClass.main(MainClass.java:56)
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Action.equals(Object)" because the return value of "Request.getAction()" is null
+	at Scheduler.working(Scheduler.java:21)
+	at Main.main(Main.java:10)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Library.reservation(Library.java:382)
+	at Library.borrowBook(Library.java:196)
+	at Library.process(Library.java:478)
+	at Library.solve(Library.java:495)
+	at Main.main(Main.java:79)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at World.<init>(World.java:44)
+	at Main.main(Main.java:7)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at Shelf.addBooks2Map(Shelf.java:38)
+	at Shelf.addBooks2Shelf(Shelf.java:48)
+	at Library.initialAddBooks(Library.java:63)
+	at MainClass.main(MainClass.java:15)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 4 more
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Book.beSmeared(String)" because the return value of "java.util.HashMap.get(Object)" is null
+	at Student.smearBook(Student.java:128)
+	at Deal.delBC(Deal.java:80)
+	at Deal.delRequest(Deal.java:33)
+	at MainClass.main(MainClass.java:23)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at MainClass.main(MainClass.java:32)
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:82)
+	at Schedule.order(Schedule.java:141)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at MainClass.compute(MainClass.java:64)
+	at MainClass.main(MainClass.java:13)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 2 more
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/util/Pair
+	at OrdLib.register(OrdLib.java:39)
+	at Library.order(Library.java:84)
+	at Schedule.order(Schedule.java:142)
+	at Schedule.handleRequest(Schedule.java:23)
+	at MainClass.main(MainClass.java:25)
+Caused by: java.lang.ClassNotFoundException: javafx.util.Pair
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 5 more
