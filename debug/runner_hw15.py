@@ -54,6 +54,12 @@ def clearstate(file_path):
         for line in txt:
             if line.startswith('('):
                 txt.remove(line)
+        for line in txt:
+            if line.startswith('('):
+                txt.remove(line)
+        for line in txt:
+            if line.startswith('('):
+                txt.remove(line)
         
         with open(file_path, 'w') as file:
             file.writelines(txt)
@@ -62,19 +68,19 @@ def myhash(file_path):
     with file_lock2:
         with open(file_path, 'r') as file:
             txt = file.readlines()
-                
+    
     res = 0
     for line in txt:
         if line[0] == '[':
             for ch in line:
                 res += ord(ch)
         else:
-            print(line)
+            print(line, file_path)
     return res
     
     
 def mydiff(file1, file2):
-    print(file1, myhash(file1))
+    #print(file1, myhash(file1))
     return myhash(file1) != myhash(file2)
 
 
