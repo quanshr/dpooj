@@ -5,9 +5,9 @@ import shutil
 from random import sample
 import json
 
-hw = 14
+hw = 15
 
-tot_count = 30
+tot_count = 10
 if len(sys.argv) > 1:
     tot_count = int(sys.argv[1])
     print(sys.argv[1])
@@ -61,7 +61,13 @@ def clearstate(file_path):
         txt = file.readlines()
     
     for line in txt:
-        if line.startswith('(State)'):
+        if line.startswith('('):
+            txt.remove(line)
+    for line in txt:
+        if line.startswith('('):
+            txt.remove(line)
+    for line in txt:
+        if line.startswith('('):
             txt.remove(line)
     
     with open(file_path, 'w') as file:
